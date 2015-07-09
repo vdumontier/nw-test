@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>test</title>
+  <script type="text/javascript">
+    console.log('Hi!');
+
+    function tick() {
+      setTimeout(function() {
+        console.log('Tick !');
+        tick();
+      }, 1000);
+    }
+
+    tick();
+
+var els = document.getElementsByTagName('*');
+console.log(els.length);
+/*
+for (i = 0; i < els.length; i++) {
+    console.log("Disable touch for ", els[i]);
+    els[i].addEventListener('touchmove', function(event) {return false;}, false);
+    els[i].addEventListener('touchstart', function(event) {return false;}, false);
+    els[i].addEventListener('touchend', function(event) {return false;}, false);
+}
+*/
+  </script>
+</head>
+<body onclick="console.log('body click!')">
+
+  <a href="http://www.google.fr" onclick="console.log('a click!'); return false;" style="display:block;width= 50px;height:50px;background-color: #ccc;">Click me !</a>
+
+</body>
+</html>

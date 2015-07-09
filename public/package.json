@@ -1,0 +1,22 @@
+{
+  "main": "app://localhost/nw-start.html",
+  "author": "vdumontier@gmail.com",
+  "name": "nw-test",
+  "description": "",
+  "version": "0.0.0",
+  "winIco": "favicon.ico",
+  "window": {
+    "title": "test",
+    "icon": "favicon.png",
+    "toolbar": true,
+    "frame": true,
+    "kiosk": false,
+    "fullscreen": false
+  },
+  "nodejs": true,
+  "webkit": {
+    "plugin": true
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "author": "vdumontier@gmail.com",
+  "name": "",
+  "description": "",
+  "version": "0.0.0",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-node-webkit-builder": "latest"
+  },
+  "scripts": {
+  },
+  "dependencies": {
+    "async": "~0.9.0"
+  }
+}
