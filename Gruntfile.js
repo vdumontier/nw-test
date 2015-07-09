@@ -5,7 +5,7 @@ module.exports = function(grunt) {
         appName: "nw-test",
         platforms: ['win'],
         buildDir: './dist',
-        version: "0.12.1"
+        version: "0.12.2"
       },
       src: ['./public/**/*']
     },
